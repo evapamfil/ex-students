@@ -1,0 +1,154 @@
+{
+	"id": "8ca7d2c6-9d73-8d23-f7e6-15c12a90afc4",
+	"name": "Exercice Students / Notes",
+	"description": "",
+	"order": [
+		"2a491a48-5139-f727-f417-58a3cc6d3beb",
+		"058f9cfe-7424-cb54-83f8-b8a3d952f62b",
+		"c7239e4e-3202-51f5-07e9-20cfeb3d9105",
+		"b18d16cc-631d-a685-9fff-cfa94f014897"
+	],
+	"folders": [],
+	"timestamp": 1494959631619,
+	"owner": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "058f9cfe-7424-cb54-83f8-b8a3d952f62b",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:1337/api/students",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8ca7d2c6-9d73-8d23-f7e6-15c12a90afc4",
+			"data": [],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:1337/api/students",
+			"description": "GET",
+			"descriptionFormat": "html",
+			"time": 1494959691964,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "2a491a48-5139-f727-f417-58a3cc6d3beb",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:1337/api/students",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8ca7d2c6-9d73-8d23-f7e6-15c12a90afc4",
+			"data": [
+				{
+					"key": "firstname",
+					"value": "Eva",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lastname",
+					"value": "Pamfil",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "age",
+					"value": "20",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "class",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "girl",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:1337/api/students",
+			"description": "POST",
+			"descriptionFormat": "html",
+			"time": 1494959631619,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b18d16cc-631d-a685-9fff-cfa94f014897",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:1337/api/notes",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8ca7d2c6-9d73-8d23-f7e6-15c12a90afc4",
+			"data": [
+				{
+					"key": "student",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mark",
+					"value": "15",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:1337/api/notes",
+			"description": "GET",
+			"descriptionFormat": "html",
+			"time": 1494959920077,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c7239e4e-3202-51f5-07e9-20cfeb3d9105",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:1337/api/notes",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8ca7d2c6-9d73-8d23-f7e6-15c12a90afc4",
+			"data": [
+				{
+					"key": "student",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mark",
+					"value": "15",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:1337/api/notes",
+			"description": "POST",
+			"descriptionFormat": "html",
+			"time": 1494959896123,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

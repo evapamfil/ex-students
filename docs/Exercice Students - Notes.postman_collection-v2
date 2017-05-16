@@ -1,0 +1,145 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Exercice Students / Notes",
+		"_postman_id": "8ca7d2c6-9d73-8d23-f7e6-15c12a90afc4",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:1337/api/students",
+			"request": {
+				"url": "http://localhost:1337/api/students",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "firstname",
+							"value": "Eva",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "lastname",
+							"value": "Pamfil",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "age",
+							"value": "20",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "class",
+							"value": "1",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "gender",
+							"value": "girl",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": "POST"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1337/api/students",
+			"request": {
+				"url": "http://localhost:1337/api/students",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "GET"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1337/api/notes",
+			"request": {
+				"url": "http://localhost:1337/api/notes",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "student",
+							"value": "2",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "mark",
+							"value": "15",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": "POST"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1337/api/notes",
+			"request": {
+				"url": "http://localhost:1337/api/notes",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "student",
+							"value": "2",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "mark",
+							"value": "15",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": "GET"
+			},
+			"response": []
+		}
+	]
+}
